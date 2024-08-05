@@ -1,0 +1,19 @@
+body{
+    background-color: antiquewhite;
+}
+
+td, th{
+    border: 1px solid red;
+}
+
+td:hover{
+    background-color: lightblue;
+    color: aliceblue;
+}
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+    border: 5px solid green;
+}
