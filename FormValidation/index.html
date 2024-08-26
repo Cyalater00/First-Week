@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Form Validation</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="src/styles.css" />
+  </head>
+
+  <body>
+    <h1>Form Validation</h1>
+    <div>
+      The <code>required</code> attribute defines fields that must be filled out
+      before a form can be submitted.
+    </div>
+
+    <br />
+
+    <div id="app">
+      <p>Try submitting this form without any input.</p>
+      <form id="myForm">
+        <input type="text" required />
+        <button type="submit">Submit</button>
+        <input type="time" min="11:00:00" max="">
+      </form>
+    </div>
+
+    <script src="index.js" defer></script>
+  </body>
+</html>
